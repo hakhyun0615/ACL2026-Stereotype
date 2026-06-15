@@ -20,6 +20,8 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.05cm}
 \renewcommand{\arraystretch}{1.10}
+\setbeamersize{text margin left=0.03\paperwidth,text margin right=0.03\paperwidth}
+\newlength{\colht}\setlength{\colht}{0.88\paperheight}
 
 \definecolor{dartgreen}{HTML}{00693E}
 \definecolor{muted}{HTML}{4B5963}
@@ -31,6 +33,8 @@
 \setbeamercolor{block title}{fg=white,bg=dartgreen}
 \setbeamercolor{block body}{fg=black,bg=white}
 \setbeamercolor{headline}{fg=black,bg=white}
+\setbeamercolor{item}{fg=dartgreen}
+\setbeamercolor{enumerate item}{fg=dartgreen}
 \setbeamertemplate{block begin}{%
   \vskip0.16cm
   \begin{beamercolorbox}[wd=\linewidth,sep=0.18cm,leftskip=0.35cm]{block title}
@@ -38,10 +42,11 @@
   \end{beamercolorbox}
   \vskip0.10cm
   \begin{beamercolorbox}[wd=\linewidth,sep=0.18cm,leftskip=0.18cm,rightskip=0.18cm]{block body}
-  \RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\fontsize{30}{38}\selectfont
+  \RaggedRight\hyphenpenalty=10000\exhyphenpenalty=10000\fontsize{30}{38}\selectfont\ignorespaces
 }
 \setbeamertemplate{block end}{%
   \end{beamercolorbox}
+  \vskip0.4cm
 }
 
 \newcommand{\postercol}{0.455\paperwidth}
@@ -49,6 +54,19 @@
 \newcommand{\smallnote}[1]{{\fontsize{21}{26}\selectfont\color{muted}#1}}
 \newcommand{\captionnote}[1]{{\fontsize{27}{34}\selectfont #1}}
 \newcommand{\tablefont}{\fontsize{27}{34}\selectfont}
+\newcommand{\stripline}[1]{{\fontsize{28}{34}\selectfont #1}}
+\newcommand{\qrplaceholder}[2]{%
+  \begin{minipage}[t]{0.32\linewidth}\centering
+    \begin{tikzpicture}\fill[black] (0,0) rectangle (7,7);\end{tikzpicture}\\[0.20cm]
+    {\fontsize{32}{40}\selectfont\bfseries #1}\\[0.05cm]
+    \smallnote{#2}
+  \end{minipage}}
+\newcommand{\qrcode}[3]{%
+  \begin{minipage}[t]{0.32\linewidth}\centering
+    \includegraphics[width=7cm]{#1}\\[0.20cm]
+    {\fontsize{32}{40}\selectfont\bfseries #2}\\[0.05cm]
+    \smallnote{#3}
+  \end{minipage}}
 
 \tikzset{
   box/.style={draw=rulegray,rounded corners=1pt,line width=0.7pt,align=center,inner sep=4pt,fill=lightgray},
@@ -58,44 +76,44 @@
 \begin{document}
 \begin{frame}[t]
 
+\vspace*{2.15cm}
+
 % Header
 \begin{columns}[c,totalwidth=0.94\paperwidth]
-  \begin{column}{0.20\paperwidth}
+  \begin{column}{0.18\paperwidth}
     \includegraphics[width=0.82\linewidth]{figures/dartmouth_logo.png}
   \end{column}
   \begin{column}{0.58\paperwidth}
     \centering
-    {\fontsize{68}{78}\selectfont Translation Is Not Representation}\\[0.18cm]
-    {\fontsize{38}{46}\selectfont English-Hub Routing in Cross-Lingual Bias Benchmarks}\\[0.22cm]
-    {\fontsize{25}{31}\selectfont Hak Hyun Kim \qquad Benjamin Huh}\\[0.10cm]
-    {\fontsize{21}{26}\selectfont Dartmouth College}
+    {\fontsize{60}{70}\selectfont\bfseries Translation Is Not Representation}\\[0.30cm]
+    {\fontsize{30}{38}\selectfont Hak Hyun Kim \;\textbullet\; Benjamin Huh}\\[0.14cm]
+    {\fontsize{24}{30}\selectfont\color{muted}Dartmouth College}
   \end{column}
-  \begin{column}{0.16\paperwidth}
+  \begin{column}{0.18\paperwidth}
     \raggedleft
-    {\fontsize{25}{31}\selectfont\bfseries ACL 2026}\\[0.12cm]
-    {\fontsize{13}{16}\selectfont \texttt{benjamin.j.huh.24@dartmouth.edu}}
+    \includegraphics[width=0.82\linewidth]{figures/acl2026_logo.png}
   \end{column}
 \end{columns}
 
-\vspace{0.18cm}
-{\color{dartgreen}\rule{0.94\paperwidth}{2.2pt}}
-\vspace{0.20cm}
+\vspace{0.6cm}
+\centerline{\color{dartgreen}\rule{0.94\paperwidth}{2.2pt}}
+\vspace{0.6cm}
 
-\begin{center}
-\begin{minipage}{0.91\paperwidth}
-\fontsize{32}{41}\selectfont
-\textbf{Main result.} Translated bias scores can be meaningful behavior even when the hidden route is not representation-equivalent: non-English prompts may pass through an English hub that CKA misses.
+\begin{minipage}{\linewidth}
+\stripline{\textbf{Main result.} Bias scores from cross-lingual benchmarks can remain meaningful even when translated prompts route through an English hub.}\par
+\stripline{\textbf{Contributions.} English-hub routing beyond CKA; routing-behavior dissociation; audit protocol.}\par
+\stripline{\textbf{Scope.} 4 matched 13B models; 41 layers; 2,142 English-Japanese and 261 English-Korean pairs; CKA, lenses, patching.}
 \end{minipage}
-\end{center}
 
-\vspace{0.12cm}
+\vspace{0.9cm}
 
 \begin{columns}[t,totalwidth=0.94\paperwidth]
 
 % Left column
 \begin{column}{\postercol}
+\begin{minipage}[t][\colht][s]{\linewidth}
 
-\begin{block}{What Translated Benchmarks Assume}
+\begin{block}{1. Problem: Translation Assumes Comparability}
 Translated bias benchmarks score stereotype preference after translating an English BBQ item into another language. This treats translation as construct preservation.
 
 \medskip
@@ -120,7 +138,8 @@ LLM-jp & balanced Japanese/English pretraining \\
 Matched pairs fix architecture and initialization; changes mostly reflect adaptation.
 \end{block}
 
-\begin{block}{Same Event, Different Continuation}
+\vfill
+\begin{block}{2. Motivation: Same Event, Different Continuation}
 \begin{center}
 \begin{tikzpicture}[font=\fontsize{27}{33}\selectfont,node distance=1.25cm]
 \node[box,minimum width=6.5cm,minimum height=1.55cm](en){BBQ context\\English};
@@ -132,10 +151,11 @@ Matched pairs fix architecture and initialization; changes mostly reflect adapta
 \end{tikzpicture}
 \end{center}
 \smallskip
-\captionnote{The event is preserved, but the continuation can become culture-specific.}
+\captionnote{A BBQ age item continued in English yields a neutral exchange about ice; the faithful Japanese (JBBQ) translation instead centers on \textit{nihonshu} (rice wine). The event is preserved, yet the model activates different cultural associations, so a faithful translation need not preserve the measured construct.}
 \end{block}
 
-\begin{block}{Four Checks for Comparability}
+\vfill
+\begin{block}{3. Method: Four Checks for Comparability}
 \begin{center}
 \tablefont
 \begin{tabular}{lp{0.61\linewidth}}
@@ -148,42 +168,50 @@ Matched pairs fix architecture and initialization; changes mostly reflect adapta
 \end{tabular}
 \end{center}
 \smallskip
-\captionnote{Representations use context-only hidden states; behavior uses full question-answer items.}
+\captionnote{Comparability has two levels: representations should occupy similar regions (geometric, CKA) \emph{and} imply similar predictions (functional, the lenses). Geometric similarity alone is insufficient. Representations use context-only hidden states; behavior uses the full question-answer item.}
 \end{block}
 
-\begin{block}{CKA Hides English-Hub Routing}
+\vfill
+\begin{block}{4. Routing: CKA Hides English-Hub Routing}
 \centering
 \includegraphics[width=0.95\linewidth]{figures/fig_hub_routing.pdf}
 \par\smallskip
 \raggedright
-\captionnote{CKA suggests alignment, but the script-mass lens shows Llama-2 predicts English-script tokens in Japanese middle layers.}
+\captionnote{CKA between English and Japanese is high for every model (peaks $0.83/0.88/0.82$), and the English-centric Llama-2 is no lower than balanced LLM-jp. Yet the script-mass lens shows Llama-2 predicting English-script tokens through the middle layers (Latin mass $\approx0.78$), while LLM-jp predicts Japanese from the start. Geometric convergence hides the routing.}
 \end{block}
 
-\begin{block}{Target-Language Adaptation Reduces Hub Routing}
+\vfill
+\begin{block}{5. Adaptation Reduces Hub Routing}
 \centering
-\begin{minipage}[c]{0.63\linewidth}
-\includegraphics[width=\linewidth]{figures/fig_adaptation.pdf}
-\end{minipage}\hfill
-\begin{minipage}[c]{0.32\linewidth}
+\includegraphics[width=0.95\linewidth]{figures/fig_adaptation.pdf}
+\par\smallskip
 \raggedright
-\captionnote{Adaptation lowers mid-layer Latin mass: $0.77\to0.56$ in Japanese and $0.78\to0.71$ in Korean. Balanced training reaches $0.19$.}
-\end{minipage}
+\captionnote{Matched pair (Llama-2$\to$Swallow, same initialization and architecture): the mid-layer Latin-mass drop $0.77\to0.56$ is attributable to Japanese adaptation, not to scale or architecture. Korean replicates ($0.78\to0.71$), and balanced bilingual training pushes it furthest down, to $0.19$.}
 \end{block}
 
+\vfill
+\begin{center}
+\qrplaceholder{Paper}{}\hspace{2.5cm}\qrcode{figures/qr_repo.png}{Code}{}
+\end{center}
+\vskip0.2cm
+
+\end{minipage}
 \end{column}
 
 % Right column
 \begin{column}{\postercol}
+\begin{minipage}[t][\colht][s]{\linewidth}
 
-\begin{block}{English-Korean Routing Replication}
+\begin{block}{6. Replication: English-Korean Routing}
 \centering
 \includegraphics[width=0.95\linewidth]{figures/fig_ko_layerwise.pdf}
 \par\smallskip
 \raggedright
-\captionnote{English/Korean reproduces the diagnostic split: sustained CKA, reduced English-script mass, and late functional divergence.}
+\captionnote{On Korean, Llama-2 routes through English as much as for Japanese ($0.78$ vs.\ $0.77$); Korean adaptation (koen) reduces it to $0.71$, raises Hangul-script mass $0.01\to0.16$, and sustains higher CKA into the upper layers. The same diagnostic split reproduces.}
 \end{block}
 
-\begin{block}{Bias Behavior Is Language-Specific}
+\vfill
+\begin{block}{7. Behavior Is Language-Specific}
 \begin{center}
 \tablefont
 \begin{tabular}{lccc}
@@ -206,10 +234,11 @@ koen & 0.507 & 0.541 & -0.034 \\
 \end{tabular}
 \end{center}
 \smallskip
-\captionnote{$P_{\mathrm{ster}}$ in ambiguous items. Japanese shows a robust English-over-target gap; Korean is closer to English.}
+\captionnote{$P_{\mathrm{ster}}$ in ambiguous items (chance $=0.33$). Japanese gaps are all significant ($+0.13$ to $+0.14$) with Japanese near chance; the Korean base gap is small ($+0.053$) and vanishes after adaptation. The asymmetry is language-specific, not universal.}
 \end{block}
 
-\begin{block}{Japanese Gap Varies by Category}
+\vfill
+\begin{block}{8. Japanese Gap Varies by Category}
 \begin{center}
 \tablefont
 \begin{tabular}{lccc}
@@ -224,21 +253,20 @@ Sexual orientation & 0.444 & 0.271 & +0.173* \\
 \bottomrule
 \end{tabular}
 \end{center}
-\smallnote{* bootstrap 95\% CI excludes zero. Physical appearance is the exception.}
+\smallnote{* bootstrap 95\% CI excludes zero. Age, disability, and sexual orientation show the largest gaps ($+0.17$ to $+0.19$); physical appearance is the exception, equal across both languages ($\approx0.46$).}
 \end{block}
 
-\begin{block}{Hub Routing Does Not Transplant Bias}
+\vfill
+\begin{block}{9. Causal Test: Hub Routing Does Not Transplant Bias}
 \centering
-\begin{minipage}[c]{0.63\linewidth}
-\includegraphics[width=\linewidth]{figures/fig_patching_null.pdf}
-\end{minipage}\hfill
-\begin{minipage}[c]{0.32\linewidth}
+\includegraphics[width=0.58\linewidth]{figures/fig_patching_null.pdf}
+\par\smallskip
 \raggedright
-\captionnote{Paired English-state injections match random-English controls; transplant effects stay near zero.}
-\end{minipage}
+\captionnote{We inject the English hub state at the CKA-peak layer and across the full hub band (layers 10--25). The multi-layer patch perturbs outputs ($-0.03$ on average) but \emph{non-specifically}: paired and random English states are indistinguishable. Korean gives the same null (transplant $+0.000$, $+0.003$). The hub representation is present but carries no item-specific bias.}
 \end{block}
 
-\begin{block}{Dissociation and Audit Protocol}
+\vfill
+\begin{block}{10. Takeaway and Audit Protocol}
 \textbf{Representations:} translated prompts are not necessarily processed in comparable spaces.\\[0.12cm]
 \textbf{Behavior:} per-language bias scores remain meaningful; patching finds no transplant of English bias.
 
@@ -251,9 +279,13 @@ Sexual orientation & 0.444 & 0.271 & +0.173* \\
 \end{enumerate}
 
 \smallskip
-\smallnote{Limitations: Korean is a directional replication ($n=261$); patching is a strengthened null. References: Parrish et al. 2022; Yanaka et al. 2025; Jin et al. 2024; Neplenbroek et al. 2024; Wendler et al. 2024; Kornblith et al. 2019.}
+\captionnote{Step 4 is not vacuous on our data: a chrF back-translation filter shrinks the base model's English/Korean gap from $+0.053$ to $+0.017$, flagging low-fidelity items a representation-space cosine would miss.}
+
+\smallskip
+\smallnote{References: Parrish et al. 2022; Yanaka et al. 2025; Jin et al. 2024; Wendler et al. 2024; Kornblith et al. 2019.}
 \end{block}
 
+\end{minipage}
 \end{column}
 \end{columns}
 \end{frame}
