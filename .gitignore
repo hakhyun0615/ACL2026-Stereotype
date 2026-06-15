@@ -1,0 +1,37 @@
+# OS / editor
+.DS_Store
+.clauderesults/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.nav
+*.snm
+*.toc
+*.vrb
+
+# Large / regenerable
+*.npz
+paper_figs/
+outputs/
+
+# Datasets are not redistributed here (license + size).
+# See data/README.md for how to obtain them. Keep only the doc tracked.
+data/*
+!data/README.md
+
+# Working scratch (project convention)
+docs/
+archive/
+tmp/

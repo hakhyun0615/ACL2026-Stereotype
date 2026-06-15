@@ -1,0 +1,1049 @@
+{
+  "n": 261,
+  "records": [
+    {
+      "category": "Disability_status",
+      "chrf": 40.667186793210966
+    },
+    {
+      "category": "Age",
+      "chrf": 75.5623729402128
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.32285122194109
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 31.24245629593459
+    },
+    {
+      "category": "Age",
+      "chrf": 20.957718225833226
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 51.362747009680845
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 37.24595410628474
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 31.988526233883714
+    },
+    {
+      "category": "Age",
+      "chrf": 40.10791204247935
+    },
+    {
+      "category": "Age",
+      "chrf": 42.07544474707475
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 52.377933129837885
+    },
+    {
+      "category": "Age",
+      "chrf": 20.957718225833226
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 36.51447352164361
+    },
+    {
+      "category": "Age",
+      "chrf": 40.2696350205793
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 48.296541924934075
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 26.399850504126736
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 46.860403659923115
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.110759382883867
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 45.07021703525126
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 45.10244426356621
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 38.795768809596595
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 33.19167915816845
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 51.362747009680845
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 26.281231723506103
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 47.91000628188379
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 50.45671068895244
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 51.32494554651207
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 58.94194000326626
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.55527642349665
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 55.81742066474358
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.4300189471106
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 40.667186793210966
+    },
+    {
+      "category": "Age",
+      "chrf": 29.85918591106419
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 31.24245629593459
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 22.177077060943066
+    },
+    {
+      "category": "Age",
+      "chrf": 50.99719113227445
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.730749644752294
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.877856114330996
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 35.81941842663997
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 53.09287489298996
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 60.52742974574652
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.754699152363195
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 44.824133518066084
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 44.02488387837597
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.382532760734414
+    },
+    {
+      "category": "Age",
+      "chrf": 26.034657292412984
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.52112872774753
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 57.12926312505616
+    },
+    {
+      "category": "Age",
+      "chrf": 45.532382467686325
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 44.824133518066084
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 43.144472128631996
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 52.36351058201482
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 29.944521645001014
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 52.377933129837885
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 45.20647747834494
+    },
+    {
+      "category": "Age",
+      "chrf": 26.902843905978852
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 48.33247642333945
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 35.47513914299845
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.69328251268385
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.0171868271691
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 37.24595410628474
+    },
+    {
+      "category": "Age",
+      "chrf": 20.957718225833226
+    },
+    {
+      "category": "Age",
+      "chrf": 42.07544474707475
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 47.91000628188379
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 44.55755597273268
+    },
+    {
+      "category": "Age",
+      "chrf": 75.5623729402128
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 57.12926312505616
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 35.93492898986551
+    },
+    {
+      "category": "Age",
+      "chrf": 49.12285951294761
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 36.58375055126985
+    },
+    {
+      "category": "Age",
+      "chrf": 40.10791204247935
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 46.860403659923115
+    },
+    {
+      "category": "Age",
+      "chrf": 36.15746751593116
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.552414225531166
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.552414225531166
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 30.70510969234383
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 17.3810271006031
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 44.02488387837597
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.65779716184517
+    },
+    {
+      "category": "Age",
+      "chrf": 40.10791204247935
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 75.24942948814667
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 61.92203209887682
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 32.56963129080935
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 45.20475570341418
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 29.774909467713556
+    },
+    {
+      "category": "Age",
+      "chrf": 57.04529461074166
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 23.71571388384274
+    },
+    {
+      "category": "Age",
+      "chrf": 80.88575325042011
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 30.70510969234383
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 40.47927070937466
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 41.403728179163835
+    },
+    {
+      "category": "Age",
+      "chrf": 43.52046859702955
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 58.576728668430746
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 28.500623418122306
+    },
+    {
+      "category": "Age",
+      "chrf": 32.29756676100966
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.91615690701464
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.877856114330996
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 44.22572922195421
+    },
+    {
+      "category": "Age",
+      "chrf": 57.04529461074166
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.110759382883867
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 40.858048937453994
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 29.774909467713556
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 52.51061129975098
+    },
+    {
+      "category": "Age",
+      "chrf": 43.52046859702955
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 33.19167915816845
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 40.47927070937466
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.91615690701464
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 29.944521645001014
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 57.4690548926984
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 68.80185481926887
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.348491161595092
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 45.07915667834292
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 75.18619973879773
+    },
+    {
+      "category": "Age",
+      "chrf": 48.77813711780481
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 39.99218688352235
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 40.858048937453994
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 58.94194000326626
+    },
+    {
+      "category": "Age",
+      "chrf": 44.49194879264988
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 22.177077060943066
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 45.20475570341418
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 35.73971470947526
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 39.873584451373475
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 39.57606327302735
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 40.447694648196645
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 30.861957782358807
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.118888697988663
+    },
+    {
+      "category": "Age",
+      "chrf": 40.31967170936646
+    },
+    {
+      "category": "Age",
+      "chrf": 45.532382467686325
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 43.74567021259665
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 39.11245266341021
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.382532760734414
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 80.43486496473787
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 43.74567021259665
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 29.03013989616547
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.118888697988663
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 44.18402361534756
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.72621294647123
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 50.45671068895244
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 31.11056933044834
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 41.403728179163835
+    },
+    {
+      "category": "Age",
+      "chrf": 45.22583366765612
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.373625029085378
+    },
+    {
+      "category": "Age",
+      "chrf": 57.04529461074166
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 31.11056933044834
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 41.35423159614437
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.382532760734414
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 58.277556197795256
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 23.966618043020045
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 40.447694648196645
+    },
+    {
+      "category": "Age",
+      "chrf": 34.218377971103884
+    },
+    {
+      "category": "Age",
+      "chrf": 50.99719113227445
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.51929054209539
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.0171868271691
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 46.240318057755914
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 33.14003611005653
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 31.11056933044834
+    },
+    {
+      "category": "Age",
+      "chrf": 78.71725520454687
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 26.28535532057676
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 17.292375598499657
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.492654117469904
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 75.18619973879773
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 66.77887875471733
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 36.19829679369582
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 28.292696462185646
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 31.24245629593459
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 51.32494554651207
+    },
+    {
+      "category": "Age",
+      "chrf": 26.902843905978852
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 28.500623418122306
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 23.966618043020045
+    },
+    {
+      "category": "Age",
+      "chrf": 40.31967170936646
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.69328251268385
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 29.054828895992856
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.51929054209539
+    },
+    {
+      "category": "Age",
+      "chrf": 42.879862750918555
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 57.11071974182368
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 63.740885067700184
+    },
+    {
+      "category": "Age",
+      "chrf": 49.19452523319379
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 63.740885067700184
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 54.552414225531166
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 39.56247470211587
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 36.58375055126985
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 39.11245266341021
+    },
+    {
+      "category": "Age",
+      "chrf": 53.484905056125875
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 60.52742974574652
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 33.19167915816845
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 47.91000628188379
+    },
+    {
+      "category": "Age",
+      "chrf": 48.35915795207802
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.91615690701464
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 25.373625029085378
+    },
+    {
+      "category": "Age",
+      "chrf": 40.11242268020732
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 66.77887875471733
+    },
+    {
+      "category": "Age",
+      "chrf": 44.49194879264988
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 53.09287489298996
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 57.11071974182368
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 30.07914193207532
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.55527642349665
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 35.73971470947526
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.492654117469904
+    },
+    {
+      "category": "Age",
+      "chrf": 42.919339090955475
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 52.62941712953552
+    },
+    {
+      "category": "Age",
+      "chrf": 49.12285951294761
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 46.1017605348705
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 36.19829679369582
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.4300189471106
+    },
+    {
+      "category": "Age",
+      "chrf": 73.66933871669943
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 45.20647747834494
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 37.24595410628474
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 27.743827946091937
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 57.11071974182368
+    },
+    {
+      "category": "Age",
+      "chrf": 53.484905056125875
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 52.62941712953552
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 35.93492898986551
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 36.51447352164361
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 44.26035678316044
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 50.45671068895244
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 57.8208687810247
+    },
+    {
+      "category": "Age",
+      "chrf": 49.19452523319379
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 46.34143085978944
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 27.743827946091937
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 40.47927070937466
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 58.576728668430746
+    },
+    {
+      "category": "Age",
+      "chrf": 49.19452523319379
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 26.056192593511796
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.98176952402878
+    },
+    {
+      "category": "Age",
+      "chrf": 32.29756676100966
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 29.03013989616547
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 43.144472128631996
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 28.512829835220092
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 37.13081832105167
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 28.512829835220092
+    },
+    {
+      "category": "Age",
+      "chrf": 34.72854197392207
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 55.680249588951334
+    },
+    {
+      "category": "Sexual_orientation",
+      "chrf": 52.36351058201482
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 59.3466552755044
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 31.69328251268385
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 30.861957782358807
+    },
+    {
+      "category": "Age",
+      "chrf": 42.06234903936015
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.492654117469904
+    },
+    {
+      "category": "Age",
+      "chrf": 44.51424208587359
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 23.966618043020045
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 80.43486496473787
+    },
+    {
+      "category": "Age",
+      "chrf": 48.35915795207802
+    },
+    {
+      "category": "Age",
+      "chrf": 34.218377971103884
+    },
+    {
+      "category": "Age",
+      "chrf": 29.48921493876747
+    },
+    {
+      "category": "Age",
+      "chrf": 44.51424208587359
+    },
+    {
+      "category": "Age",
+      "chrf": 44.51424208587359
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.72621294647123
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 37.13081832105167
+    },
+    {
+      "category": "Age",
+      "chrf": 29.85918591106419
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 39.99218688352235
+    },
+    {
+      "category": "Physical_appearance",
+      "chrf": 17.3810271006031
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 22.177077060943066
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 36.21304969272733
+    },
+    {
+      "category": "Age",
+      "chrf": 51.381174907759096
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 35.335858952344616
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 68.16163186177053
+    },
+    {
+      "category": "Disability_status",
+      "chrf": 37.52112872774753
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 38.877856114330996
+    },
+    {
+      "category": "Gender_identity",
+      "chrf": 39.99218688352235
+    },
+    {
+      "category": "Age",
+      "chrf": 80.88575325042011
+    },
+    {
+      "category": "Age",
+      "chrf": 48.35915795207802
+    }
+  ]
+}
